@@ -7,7 +7,7 @@
   - Cấu hình chân **PA0** làm Input đọc trạng thái Nút nhấn.
   - Cấu hình chân **PC13** làm Output điều khiển LED tích hợp.
   - Khi nhấn rồi nhả nút (tương tác điều khiển nút nguồn), LED đảo trạng thái (ON/OFF). Khi nhả nút, trạng thái LED được giữ nguyên.
-## Cấu trúc dự án
+## Các file
 - `main.c`: Mã nguồn chính cấu hình các thanh ghi RCC, GPIOA, GPIOC và thuật toán debounce chống dội nút.
 - `startup.s`: File khởi tạo Vector Table và Reset Handler.
 - `stm32f103.ld`: Linker script định nghĩa vùng nhớ FLASH (64KB) và RAM (20KB).

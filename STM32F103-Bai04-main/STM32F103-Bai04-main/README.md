@@ -1,4 +1,4 @@
-# Bài tập 04: Đọc nút nhấn đảo trạng thái LED (Register-level)
+# BÀI TẬP 4-STM32F103
 ## Yêu cầu bài tập
 - **Vi điều khiển:** STM32F103C8T6 (Cortex-M3).
 - **Môi trường:** Linux (Ubuntu), biên dịch bằng `arm-none-eabi-gcc`, nạp bằng `st-flash`.

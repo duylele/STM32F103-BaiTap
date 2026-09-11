@@ -1,7 +1,7 @@
-# Tên chương trình output
+
 TARGET = blink
 
-# Bộ biên dịch cho ARM
+
 CC      = arm-none-eabi-gcc
 OBJCOPY = arm-none-eabi-objcopy
 

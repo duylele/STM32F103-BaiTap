@@ -1,8 +1,8 @@
-# --- TÊN DỰ ÁN VÀ THƯ MỤC ---
+
 TARGET   = blink
 BUILD_DIR = build
 
-# --- BỘ BIÊN DỊCH (TOOLCHAIN) ---
+
 PREFIX   = arm-none-eabi-
 CC       = $(PREFIX)gcc
 AS       = $(PREFIX)gcc -x assembler-with-cpp
@@ -10,7 +10,6 @@ OBJCOPY  = $(PREFIX)objcopy
 OBJDUMP  = $(PREFIX)objdump
 SZ       = $(PREFIX)size
 
-# --- FILE NGUỒN (SOURCES) ---
 C_SOURCES = \
 main.c
 
